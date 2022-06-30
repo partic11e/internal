@@ -1,5 +1,5 @@
 /**
- * Type aliases common to various features in the partic11e {{packageName}} package.
+ * Type aliases common to various features in the partic11e internal package.
  *
  * For interfaces, see ./interfaces.ts
  *

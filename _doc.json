@@ -1,0 +1,188 @@
+[
+  {
+    "kind": "function",
+    "name": "getDocsUrl",
+    "location": {
+      "filename": "file:///C:/source/partic11e/internal/src/get_urls.ts",
+      "line": 38,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Returns the base URL for a package's documentation, optionally referencing\na specific version.\n",
+      "tags": [
+        {
+          "kind": "example",
+          "doc": "```ts\nimport { getDocsUrl } from \"./utils.ts\";\n\nconst commonDocs = getDocsUrl(\"common\");\nconst commonDocsv1 = getDocsUrl(\"common\", \"1.0.0\");\n\nconsole.log(commonDocs);\n// \"https://docs.integer.org/partic11e/common/latest\"\nconsole.log(commonDocsv1);\n// \"https://docs.integer.org/partic11e/common/1.0.0\"\n```\n"
+        },
+        {
+          "kind": "param",
+          "name": "packageName",
+          "doc": "The name of the package."
+        },
+        {
+          "kind": "param",
+          "name": "packageVersion",
+          "doc": "The version of the package. Defaults to \"latest\"."
+        },
+        {
+          "kind": "return",
+          "doc": "The URL for the package's documentation."
+        }
+      ]
+    },
+    "functionDef": {
+      "params": [
+        {
+          "kind": "identifier",
+          "name": "packageName",
+          "optional": false,
+          "tsType": {
+            "repr": "string",
+            "kind": "keyword",
+            "keyword": "string"
+          }
+        },
+        {
+          "kind": "assign",
+          "left": {
+            "kind": "identifier",
+            "name": "packageVersion",
+            "optional": false,
+            "tsType": null
+          },
+          "right": "[UNSUPPORTED]",
+          "tsType": null
+        }
+      ],
+      "returnType": {
+        "repr": "string",
+        "kind": "keyword",
+        "keyword": "string"
+      },
+      "isAsync": false,
+      "isGenerator": false,
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "function",
+    "name": "getExceptionHelpUrl",
+    "location": {
+      "filename": "file:///C:/source/partic11e/internal/src/get_urls.ts",
+      "line": 60,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Returns the base URL for a exception's explaination.\n",
+      "tags": [
+        {
+          "kind": "example",
+          "doc": "```ts\nimport { getExceptionHelpUrl } from \"./utils.ts\";\n\nconst excExcHelp = getExceptionHelpUrl(\"Exception\");\n\nconsole.log(excExcHelp);\n// \"https://docs.integer.org/exc-exp/partic11e/Exception\"\n```"
+        },
+        {
+          "kind": "param",
+          "name": "exceptionName",
+          "doc": "The name of the exception."
+        },
+        {
+          "kind": "return",
+          "doc": "The URL for the exception's explanation."
+        }
+      ]
+    },
+    "functionDef": {
+      "params": [
+        {
+          "kind": "identifier",
+          "name": "exceptionName",
+          "optional": false,
+          "tsType": {
+            "repr": "string",
+            "kind": "keyword",
+            "keyword": "string"
+          }
+        }
+      ],
+      "returnType": {
+        "repr": "string",
+        "kind": "keyword",
+        "keyword": "string"
+      },
+      "isAsync": false,
+      "isGenerator": false,
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "import",
+    "name": "P11_DOC_BASE",
+    "location": {
+      "filename": "file:///C:/source/partic11e/internal/src/get_urls.ts",
+      "line": 12,
+      "col": 0
+    },
+    "declarationKind": "private",
+    "jsDoc": {
+      "doc": "Utility functions used by the p11-common package and its dependant\nimplementations.\n",
+      "tags": [
+        {
+          "kind": "unsupported",
+          "value": "@copyright 2022 integer11. All rights reserved. MIT license."
+        }
+      ]
+    },
+    "importDef": {
+      "src": "file:///C:/source/partic11e/internal/src/_internals/mod.ts",
+      "imported": "P11_DOC_BASE"
+    }
+  },
+  {
+    "kind": "import",
+    "name": "P11_EXC_BASE",
+    "location": {
+      "filename": "file:///C:/source/partic11e/internal/src/get_urls.ts",
+      "line": 12,
+      "col": 0
+    },
+    "declarationKind": "private",
+    "jsDoc": {
+      "doc": "Utility functions used by the p11-common package and its dependant\nimplementations.\n",
+      "tags": [
+        {
+          "kind": "unsupported",
+          "value": "@copyright 2022 integer11. All rights reserved. MIT license."
+        }
+      ]
+    },
+    "importDef": {
+      "src": "file:///C:/source/partic11e/internal/src/_internals/mod.ts",
+      "imported": "P11_EXC_BASE"
+    }
+  },
+  {
+    "kind": "variable",
+    "name": "VERSION",
+    "location": {
+      "filename": "file:///C:/source/partic11e/internal/src/version.ts",
+      "line": 11,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "The version of the partic11e internal package."
+    },
+    "variableDef": {
+      "tsType": {
+        "repr": "{{version}}",
+        "kind": "literal",
+        "literal": {
+          "kind": "string",
+          "string": "{{version}}"
+        }
+      },
+      "kind": "const"
+    }
+  }
+]
