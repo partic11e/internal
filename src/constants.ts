@@ -1,5 +1,5 @@
 /**
- * Constants used by the {{packageName}} package and its dependant
+ * Constants used by the internal package and its dependant
  * implementations.
  *
  * @copyright 2022 integer11. All rights reserved. MIT license.
